@@ -1,7 +1,11 @@
-import './App.css';
+import Blank from './pages/Blank';
 
 function App() {
-    return <div className='App'></div>;
+    return (
+        <div>
+            <Blank />
+        </div>
+    );
 }
 
 export default App;
