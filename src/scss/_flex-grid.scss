@@ -11,7 +11,7 @@
     }
 }
 
-[class*="col-"] {
+[class*='col-'] {
     padding: 0 math.div($spacing, 2);
 
     @include tablet {
@@ -22,7 +22,7 @@
 @for $i from 1 through 12 {
     $v: math.div($i, 12) * 100;
     .col-#{$i} {
-        width: $v*1%;
+        width: $v * 1%;
     }
 }
 
@@ -32,7 +32,7 @@
     @for $i from 1 through 12 {
         $v: math.div($i, 12) * 100;
         .col-md-#{$i} {
-            width: $v*1%;
+            width: $v * 1%;
         }
     }
 
@@ -47,7 +47,7 @@
     @for $i from 1 through 12 {
         $v: math.div($i, 12) * 100;
         .col-sm-#{$i} {
-            width: $v*1%;
+            width: $v * 1%;
         }
     }
 

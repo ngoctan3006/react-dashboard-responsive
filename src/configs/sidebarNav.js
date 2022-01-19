@@ -8,7 +8,7 @@ const sidebarNav = [
     {
         link: '/orders',
         section: 'orders',
-        icon: <i className='bx bx-receipt' ></i>,
+        icon: <i className='bx bx-receipt'></i>,
         text: 'Orders'
     },
     {
@@ -35,6 +35,6 @@ const sidebarNav = [
         icon: <i className='bx bx-cog'></i>,
         text: 'Settings'
     }
-]
+];
 
-export default sidebarNav
+export default sidebarNav;

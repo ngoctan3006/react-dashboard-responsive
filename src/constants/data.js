@@ -1,8 +1,8 @@
-import images from "./images"
+import images from './images';
 
 const data = {
     user: {
-        name: 'Tuatta',
+        name: 'Tân',
         img: images.avt
     },
     summary: [
@@ -76,9 +76,22 @@ const data = {
         }
     ],
     revenueByMonths: {
-        labels: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 'Jan'],
+        labels: [
+            'Feb',
+            'Mar',
+            'Apr',
+            'May',
+            'Jun',
+            'July',
+            'Aug',
+            'Sep',
+            'Oct',
+            'Nov',
+            'Dec',
+            'Jan'
+        ],
         data: [250, 200, 300, 280, 100, 220, 310, 190, 200, 120, 250, 350]
     }
-}
+};
 
-export default data
+export default data;
