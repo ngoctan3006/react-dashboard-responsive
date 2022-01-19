@@ -1,4 +1,3 @@
-import React from 'react';
 import './overall-list.scss';
 import { data } from '../../constants';
 

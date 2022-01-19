@@ -1,4 +1,3 @@
-import React from 'react';
 import './user-info.scss';
 
 const UserInfo = ({ user }) => {

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './sidebar.scss';
 import { Link, useLocation } from 'react-router-dom';
 import { images } from '../../constants';

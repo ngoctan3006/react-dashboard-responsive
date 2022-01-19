@@ -1,4 +1,3 @@
-import React from 'react';
 import './summary-box.scss';
 import Box from '../box/Box';
 import {
